@@ -11,7 +11,7 @@ contributions are very welcome!
 gem 'intercom_event', git: 'https://github.com/Tongboy/intercom_event'
 ```
 
-setup a webhook URL in intercom - https://app.intercom.com/developers/_
+setup a webhook URL in [intercom dev center](https://app.intercom.com/developers/_)
 
 ultrahook or ngrok can be used for dev/testing
 
