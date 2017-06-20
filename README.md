@@ -80,8 +80,6 @@ At this time we aren't consuming/working with the intercom Hub secret - we shoul
 
 ## Configuration
 
-```
-
 If you'd like to ignore particular webhook events (perhaps to ignore test webhooks in production, or to ignore webhooks for a non-paying customer), you can do so by returning `nil` in you custom `event_retriever`. For example:
 
 ```ruby
