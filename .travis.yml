@@ -1,0 +1,20 @@
+language: ruby
+cache: bundler
+sudo: false
+
+rvm:
+  - 2.2.6
+  - 2.3.3
+
+gemfile:
+  - gemfiles/rails4.2.gemfile
+
+matrix:
+  include:
+    - rvm: 2.1.9
+      gemfile: gemfiles/rails3.2.gemfile
+  fast_finish: true
+
+notifications:
+  email:
+    -
