@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "activesupport", ">= 3.1"
 
   s.add_development_dependency "rails", [">= 3.1", "<5.0"]
-  s.add_development_dependency "rake", "< 11.0"
+  s.add_development_dependency "rake", ">= 12.3.3"
   s.add_development_dependency "rspec-rails", "~> 2.12"
   s.add_development_dependency "webmock", "~> 1.9"
 end
